@@ -13,10 +13,11 @@ Authors@R:
              email = "timothee.giraud@cnrs.fr",
              role = c("ctb"),
              comment = c(ORCID = "0000-0002-1932-3323")),
-      person(given = "A. Marcia",
+      person(given = c("A.", "Márcia"),
              family = "Barbosa",
-             email = "a.marcia.barbosa@cnrs.fr",
-             role = "ctb"))
+             email = "ana.marcia.barbosa@gmail.com",
+             role = "ctb",
+             comment = c(ORCID = "0000-0001-8972-7713")))
 Description: Create a wide range of interactive, zoomable vector maps. This
     package is an 'R' binding for the 'geoviz' 'JavaScript' library
     <https://github.com/riatelab/geoviz/>, itself based on the 'd3.js'
