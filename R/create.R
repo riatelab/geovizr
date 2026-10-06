@@ -8,7 +8,7 @@
 #' (default TRUE).
 #' @param resize logical. If TRUE, the widget automatically redraw when the container size changes. Everything is recalculated every time the window is resized (default FALSE)
 #' @param id character. Optional. ID of the SVG container (default "map").
-#' @param domain. A spatial data object, such as an `sf` object or a `terra::SpatVector`. Optional. Geographic domain to display.
+#' @param domain A spatial data object, such as an `sf` object or a `terra::SpatVector`. Optional. Geographic domain to display.
 #' @param projection character. Optional. D3 Map projection (e.g. "mercator", "equalearth", "Polar", "Spilhaus",...).
 #' @param background character. Optional. Background color.
 #' @param fontFamily character. Optional. Font family applied to the entire map.

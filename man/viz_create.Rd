@@ -26,6 +26,8 @@ viz_create(
 
 \item{resize}{logical. If TRUE, the widget automatically redraw when the container size changes. Everything is recalculated every time the window is resized (default FALSE)}
 
+\item{domain}{A spatial data object, such as an `sf` object or a `terra::SpatVector`. Optional. Geographic domain to display.}
+
 \item{responsive}{logical. Optional. Whether the SVG map resizes with the container
 Nothing is recalculated. It’s just the image that is enlarged or reduced.
 (default TRUE).}
@@ -46,8 +48,6 @@ Can define zoom extent or use "versor" for spherical zoom.}
 defines its position by using a vector of 2 values.}
 
 \item{warning}{logical. Optional. Whether to display warnings on the map (default TRUE).}
-
-\item{domain.}{A spatial data object, such as an `sf` object or a `terra::SpatVector`. Optional. Geographic domain to display.}
 }
 \value{
 A list containing map parameters and an initially empty list of layers to be displayed.
